@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { Container, Image, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import img from '../../../images/logo.png';
 import useAuth from './../../../hooks/useAuth';
 
@@ -19,16 +19,26 @@ const Header = () => {
 
                     {/* Header left */}
                     <Nav className="header-left ps-3" style={{ fontWeight: '500' }}>
-                        <Nav.Link className="fs-5 mx-1" style={{ color: '#1A1A1A' }} as={Link} to="/home">Home</Nav.Link>
+                        <Nav.Link className="fs-5 mx-1" style={{ color: '#1A1A1A' }} as={NavLink}
+                            activeStyle={{
+                                borderBottom: "2px solid #ffce3e"
+                            }}
+                            to="/home">Home</Nav.Link>
                         {
                             user.email ?
                                 <>
-                                    <Nav.Link className="fs-5 mx-1" style={{ color: '#1A1A1A' }} as={Link}
-                                        to="/mybookings">My Bookings</Nav.Link>
-                                    <Nav.Link className="fs-5 mx-1" style={{ color: '#1A1A1A' }} as={Link}
-                                        to="/managebookings">Manage Bookings</Nav.Link>
-                                    <Nav.Link className="fs-5 mx-1" style={{ color: '#1A1A1A' }} as={Link}
-                                        to="/addnewpackages">Add New Package</Nav.Link>
+                                    <Nav.Link className="fs-5 mx-1" style={{ color: '#1A1A1A' }} as={NavLink}
+                                        activeStyle={{
+                                            borderBottom: "2px solid #ffce3e"
+                                        }} to="/mybookings">My Bookings</Nav.Link>
+                                    <Nav.Link className="fs-5 mx-1" style={{ color: '#1A1A1A' }} as={NavLink}
+                                        activeStyle={{
+                                            borderBottom: "2px solid #ffce3e"
+                                        }} to="/managebookings">Manage Bookings</Nav.Link>
+                                    <Nav.Link className="fs-5 mx-1" style={{ color: '#1A1A1A' }} as={NavLink}
+                                        activeStyle={{
+                                            borderBottom: "2px solid #ffce3e"
+                                        }} to="/addnewpackages">Add New Package</Nav.Link>
                                 </> : ''
                         }
                     </Nav>

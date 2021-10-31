@@ -1,5 +1,6 @@
 import { Col, Row, Button, Container, Table } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 import useBookings from './../../hooks/useBookings';
 import './ManageBookings.css'
 

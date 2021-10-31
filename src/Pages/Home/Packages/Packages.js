@@ -1,10 +1,20 @@
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Spinner } from 'react-bootstrap';
+import useAuth from '../../../hooks/useAuth';
 import usePackages from '../../../hooks/usePackages';
 import Package from '../Package/Package';
 import './Packages.css'
 
 const Packages = () => {
     const { packages } = usePackages();
+    const { isLoading } = useAuth();
+
+    if (isLoading) {
+        return <div className="text-center">
+            <div className="spinner-border text-info" style={{ width: '3rem', height: '3rem' }} role="status">
+                <span className="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    }
 
     return (
         <div style={{ backgroundColor: '#f2f2f2' }}>

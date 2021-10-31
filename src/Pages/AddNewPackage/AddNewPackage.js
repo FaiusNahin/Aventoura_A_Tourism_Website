@@ -47,8 +47,8 @@ const AddNewPackage = () => {
                         <input className="add-package-input" {...register("img", { required: true })} placeholder="Image Link" />
 
                         <div className="d-flex flex-column flex-md-row justify-content-between two-input-group">
-                            <input className="add-package-input" type="text" {...register("days", { required: true })} placeholder="How many days you stay?" />
-                            <input className="add-package-input" type="text" {...register("tourDate", { required: true })} placeholder="Month Date, Year (March 5, 2021)" />
+                            <input className="add-package-input" type="text" {...register("days", { required: true })} placeholder="Days You Stay?" />
+                            <input className="add-package-input" type="text" {...register("tourDate", { required: true })} placeholder="MM/DD/YY (March 5, 2021)" />
                         </div>
 
                         <div className="d-flex flex-column flex-md-row justify-content-between two-input-group">

@@ -1,7 +1,7 @@
 /* Form */
 #package-form{
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right:30px;
 }
 /* Add New Package Heading */
 #new-package-heading{
@@ -23,7 +23,7 @@
     box-shadow: none;
     outline: none;
     background: #f8f8f8;
-    padding: 0px 25px;
+    padding: 0px 15px;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     color: #8c8c8c;
@@ -31,7 +31,7 @@
 }
 #add-package-form textarea{
     height:auto;
-    padding: 10px 25px 0px 25px;
+    padding: 10px 15px 0px 15px;
     margin: 10px 0px;
 }
 .two-input-group input{
@@ -54,8 +54,8 @@
 @media screen and (max-width:688px){
     /* Form */
     #package-form{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 11px;
+        padding-right: 11px;
     }
     /* Add New Package Heading */
     #new-package-heading{
