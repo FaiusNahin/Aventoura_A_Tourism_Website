@@ -15,13 +15,21 @@
     font-family: "Open Sans", sans-serif;
 }
 /* Status Button */
-#status-button{
+#status-button-accept{
     font-size: 19px;
     background-color: rgb(255, 182, 6);
     width: 89%;
 }
-#status-button:hover{
+#status-button-accept:hover{
     background-color: #ffce3e;
+}
+#status-button-pending{
+    font-size: 19px;
+    background-color: rgb(142 142 142);
+    width: 89%;
+}
+#status-button-pending:hover{
+    background-color: rgb(54, 53, 53);
 }
 
 @media only screen and (max-width:688px){
@@ -31,7 +39,10 @@
         padding-right:3px;
     }
     /* Status Button */
-    #status-button{
+    #status-button-accept{
+        width: 100%;
+    }
+    #status-button-pending{
         width: 100%;
     }
 }
@@ -41,13 +52,19 @@
         padding-right:0px;
     }
     /* Status Button */
-    #status-button{
+    #status-button-accept{
+        width: 100%;
+    }
+    #status-button-pending{
         width: 100%;
     }
 }
 @media only screen and (min-width:992px) and (max-width: 1199px){
     /* Status Button */
-    #status-button{
+    #status-button-accept{
+        width: 100%;
+    }
+    #status-button-pending{
         width: 100%;
     }
 }

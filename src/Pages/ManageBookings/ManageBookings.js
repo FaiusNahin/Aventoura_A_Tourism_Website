@@ -1,6 +1,5 @@
 import { Col, Row, Button, Container, Table } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import useAuth from '../../hooks/useAuth';
 import useBookings from './../../hooks/useBookings';
 import './ManageBookings.css'
 
@@ -9,7 +8,7 @@ const ManageBookings = () => {
 
     //Update Status API
     const handelUpdateStatus = _id => {
-        const updatedStatus = 'Accept'
+        const updatedStatus = 'Accepted'
         const newCart = { status: updatedStatus }
 
         const permission = window.confirm('Do You Want To Accept This Bookings?')
@@ -97,9 +96,15 @@ const ManageBookings = () => {
                                             <td>{booking.name}</td>
                                             <td>{booking.email}</td>
                                             <td>{booking.orderId}</td>
-
+                                            {
+                                                booking.status === 'Accepted' ?
+                                                    <td><Button id="status-button-accept" className="text-white border-0" onClick={() => handelUpdateStatus(booking._id)}>{booking.status}</Button></td>
+                                                    :
+                                                    <td><Button id="status-button-pending" className="text-white border-0"
+                                                        onClick={() => handelUpdateStatus(booking._id)}>{booking.status}</Button></td>
+                                            }
                                             {/* Update Status Button */}
-                                            <td><Button id="status-button" className="text-white border-0" onClick={() => handelUpdateStatus(booking._id)}>{booking.status}</Button></td>
+
 
                                             {/* Delete Booking Button*/}
                                             <td className=""><Button variant="danger" onClick={() => handelDeleteBooking(booking._id)}><i className="far fa-trash-alt"></i></Button></td>
