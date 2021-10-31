@@ -12,7 +12,7 @@ const DetailsForm = () => {
 
     // Confirm Order
     const handlePlaceOrder = data => {
-        fetch(`http://localhost:5000/confirmPackage`, {
+        fetch(`https://ghostly-vault-49896.herokuapp.com/confirmPackage`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

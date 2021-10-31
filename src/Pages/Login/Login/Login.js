@@ -7,7 +7,6 @@ const Login = () => {
     const { signInUsingGoogle } = useAuth();
     const location = useLocation();
     const history = useHistory();
-    console.log(location.state);
     const redirect_url = location.state?.from || '/';
 
     const googleSignIn = () => {

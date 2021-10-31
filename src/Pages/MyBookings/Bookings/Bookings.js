@@ -13,7 +13,7 @@ const Bookings = (props) => {
     const handelDeleteBooking = _id => {
         const query = window.confirm('Do You Want To Delete This Bookings?')
         if (query) {
-            fetch(`http://localhost:5000/usePackages/${_id}`, {
+            fetch(`https://ghostly-vault-49896.herokuapp.com/usePackages/${_id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

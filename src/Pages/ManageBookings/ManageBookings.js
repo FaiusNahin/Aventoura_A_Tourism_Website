@@ -13,7 +13,7 @@ const ManageBookings = () => {
 
         const permission = window.confirm('Do You Want To Accept This Bookings?')
         if (permission) {
-            fetch(`http://localhost:5000/usePackages/${_id}`, {
+            fetch(`https://ghostly-vault-49896.herokuapp.com/usePackages/${_id}`, {
                 method: 'PUT',
                 headers: {
                     'content-type': 'application/json'
@@ -25,7 +25,7 @@ const ManageBookings = () => {
                     if (data.modifiedCount > 0) {
                         alert('Status Updated');
 
-                        fetch(`http://localhost:5000/usePackages`)
+                        fetch(`https://ghostly-vault-49896.herokuapp.com/usePackages`)
                             .then(res => res.json())
                             .then(data => setBookings(data));
                     }
@@ -37,7 +37,7 @@ const ManageBookings = () => {
     const handelDeleteBooking = _id => {
         const confirm = window.confirm('Do You Want To Delete This Bookings?')
         if (confirm) {
-            fetch(`http://localhost:5000/usePackages/${_id}`, {
+            fetch(`https://ghostly-vault-49896.herokuapp.com/usePackages/${_id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())

@@ -4,7 +4,7 @@ const useBookings = () => {
     const [bookings, setBookings] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/usePackages`)
+        fetch(`https://ghostly-vault-49896.herokuapp.com/usePackages`)
             .then(res => res.json())
             .then(data => setBookings(data));
     }, [])

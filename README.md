@@ -1,6 +1,6 @@
 # Aventoura A Tourism Website
 
-This project was bootstrapped with Create React App & Live Site. [Link](https://skillance-courses-faiusnahin-035869.netlify.app/).
+This project was bootstrapped with Create React App & Live Site. [Link](https://tourism-website-client-side.web.app/).
 
 ## Aventoura
 

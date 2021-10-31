@@ -9,7 +9,7 @@ const AddNewPackage = () => {
 
 
     const handleAddPackage = data => {
-        fetch(`http://localhost:5000/packages`, {
+        fetch(`https://ghostly-vault-49896.herokuapp.com/packages`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
