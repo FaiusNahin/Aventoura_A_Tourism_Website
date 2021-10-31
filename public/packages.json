@@ -1,0 +1,74 @@
+[
+    {
+        "key": 1,
+        "placeName": "Sierra Nevada Tour",
+        "place": "Granada",
+        "price": "1,225",
+        "img": "https://i.ibb.co/sW1wX5c/sierra-nevadas.jpg",
+        "days": "7",
+        "tourDate": "September 30, 2021",
+        "shortDate": "30",
+        "shortMonth": "Sep",
+        "description": "Sierra Nevada is a mountain range in the region of Andalucia, in the province of Granada and, a little further, Málaga and Almería in Spain. It contains the highest point of continental Spain: Mulhacén, at 3,479 metres (11,414 ft) above sea level. It is a popular tourist destination, as its high peaks make skiing possible in one of Europes most southerly ski resorts, in an area along the Mediterranean Sea predominantly known for its warm temperatures and abundant sunshine. At its foothills is found the city of Granada and, a little further, Almería and Málaga."
+    },
+    {
+        "key": 2,
+        "placeName": "Hiking at Newzealand",
+        "place": "Queenstown",
+        "price": "950",
+        "img": "https://i.ibb.co/wdX0kK2/newzeland.jpg",
+        "days": "5",
+        "tourDate": "May 22, 2022",
+        "shortDate": "22",
+        "shortMonth": "May",
+        "description": "With thousands of kilometres of tracks, there are walking and hiking options to suit all levels of fitness and experience. Welcome to a walker’s paradise, where a network of trails winds past rugged coastlines, through farmland, river valleys and towering forest, to dramatic mountain ranges."
+    },
+    {
+        "key": 3,
+        "placeName": "Family Outbound",
+        "place": "California",
+        "price": "415",
+        "img": "https://i.ibb.co/7QVZJGv/outdoor-adventure.jpg",
+        "days": "6",
+        "tourDate": "August 7, 2021",
+        "shortDate": "7",
+        "shortMonth": "Aug",
+        "description": "Thinking about all the great places out there waiting for me to visit always my spirits high. So I thought it’s time to share some of that positivity with all of you. I narrowed down on my family’s next vacation destination and here’s a list of 25 fun things to do with kids in California."
+    },
+    {
+        "key": 4,
+        "placeName": "Explore Indonesian Forest",
+        "place": "Indonesia",
+        "price": "625",
+        "img": "https://i.ibb.co/VDGQBx8/adventure-indoneshia.jpg",
+        "days": "7",
+        "tourDate": "October 17, 2021",
+        "shortDate": "17",
+        "shortMonth": "Oct",
+        "description": "Indonesia’s landscapes are habitat to some of the world’s most numerous and diverse plant and endemic wildlife species. Therefore, there have been many national parks with the largest in the archipelago spread over Sumatra, Kalimantan, Sulawesi, and Papua which are vitally important for the preservation of the endangered to almost extinct wildlife."
+    },
+    {
+        "key": 5,
+        "placeName": "Teen Campaing Tour",
+        "place": "Italy",
+        "price": "1,225",
+        "img": "https://i.ibb.co/6W3fmzL/teenagers-camping.jpg",
+        "days": "10",
+        "tourDate": "March 2, 2022",
+        "shortDate": "2",
+        "shortMonth": "Mar",
+        "description": "A week on the Amalfi Coast will leave your teenage kids spellbound and not wanting to come home. Start by exploring the jagged coastline by motorboat, stopping on the islands of Capri, Ischia or Procida, while skirting Positano, Praiano, and Amalfi. Take a hike and have a picnic lunch on the Path of the Gods, with breathtaking views that John Steinbeck captured in his writings. "
+    },
+    {
+        "key": 6,
+        "placeName": "Hiking at Jogja",
+        "place": "Indonesia",
+        "price": "590",
+        "img": "https://i.ibb.co/DkvZTBk/jogja.jpg",
+        "days": "5",
+        "tourDate": "January 25, 2022",
+        "shortDate": "25",
+        "shortMonth": "Jan",
+        "description": "Explore amazing places in Java island and get experience with our friendly knowledgeable staffs in a private tour. Starting at Jogja; visiting remarkable spots of Borobudur temple, Prambanan temple, Sultans Palace etc. then continue to drive overland by car to Bromo to explore the crater, see an amazing sunrise and drive to Surabaya for your next destination or flight. Please let us know regarding the flights arrangement."
+    }
+]

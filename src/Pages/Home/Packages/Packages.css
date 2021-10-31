@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&display=swap');
+
+/* Packages Headings */
+.packages-title{
+    color: #ffce3e;
+    font-size: 19px;
+    font-weight: 700;
+}
+.packages-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: rgb(26, 26, 26);
+    font-weight: bold;
+}
+.packages-quotes{
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+}
+
+@media only screen and (max-width: 688px) {
+    .packages-title{
+        font-size: 18px;
+    }
+    .packages-heading{
+        font-size: 40px;
+    }
+    .packages-quotes{
+        font-size:16px;
+    }
+}

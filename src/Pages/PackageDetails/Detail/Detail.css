@@ -1,0 +1,21 @@
+.detail-heading{
+    font-size: 29px;
+     font-weight: 500;
+    font-family: 'Roboto', sans-serif; 
+    margin-top: 33px;
+    margin-bottom: 10px;
+}
+.detail-description{
+    font-size: 17px;
+    line-height: 27px;
+    color: #5d6c83;
+}
+.detail-price{
+    font-size: 32px;
+    color:#ffce3e;
+    font-weight:500;
+}
+.detail-pack{
+    color: rgb(26, 26, 26);
+    font-size: 25px;
+}

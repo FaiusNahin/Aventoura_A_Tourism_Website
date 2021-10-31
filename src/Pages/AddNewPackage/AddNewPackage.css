@@ -1,0 +1,117 @@
+/* Form */
+#package-form{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* Add New Package Heading */
+#new-package-heading{
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #ffb606;
+}
+#new-package-heading span{
+    color: #242424;
+}
+/* Add Package Form */
+#add-package-form{
+    border-right: 2px solid #ffb606;
+}
+#add-package-form .add-package-input,textarea{
+    height: 54px;
+    border: 1px solid #e9e9e9;
+    box-shadow: none;
+    outline: none;
+    background: #f8f8f8;
+    padding: 0px 25px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #8c8c8c;
+    margin: 10px 0px;
+}
+#add-package-form textarea{
+    height:auto;
+    padding: 10px 25px 0px 25px;
+    margin: 10px 0px;
+}
+.two-input-group input{
+    width: 48.5%;
+}
+/* Add Button */
+#add-package-button{
+    background-color: #ffb606;
+    color: white;
+    font-size:21px;
+    height: 54px;
+    border:0;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+#add-package-button:hover{
+    background-color: rgb(26, 26, 26);
+}
+
+@media screen and (max-width:688px){
+    /* Form */
+    #package-form{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* Add New Package Heading */
+    #new-package-heading{
+        font-size: 25px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    /* Add Package Form */
+    #add-package-form{
+        border: 0;
+    }
+    #add-package-form{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #add-package-form .add-package-input,textarea{
+        padding: 0px 15px;
+    }
+    #add-package-form textarea{
+        padding: 10px 15px 0px 15px;
+    }
+    .two-input-group input{
+        width: 100%;
+    }
+  }
+@media only screen and (min-width:689px) and (max-width: 991px){
+    /* Form */
+    #package-form{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    /* Add Package Form */
+    #add-package-form{
+        border: 0;
+    }
+    #add-package-form .add-package-input,textarea{
+        padding: 0px 15px;
+    }
+    #add-package-form textarea{
+        padding: 10px 15px 0px 15px;
+    }
+  }
+@media only screen and (min-width:992px) and (max-width: 1199px){
+    /* Form */
+    #package-form{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    /* Add New Package Heading */
+    #new-package-heading{
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+    /* Add Package Form */
+    #add-package-form{
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+  }

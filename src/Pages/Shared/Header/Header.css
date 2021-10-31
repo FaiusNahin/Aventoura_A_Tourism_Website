@@ -1,0 +1,21 @@
+/* Header Left */
+.header-left a:hover{
+color: #ffce3e !important;
+}
+
+/* Header Right */
+.header-right a:hover{
+color: #1a1a1a !important;
+}
+
+
+@media only screen and (max-width:688px){
+    .header-right{
+        padding-left: 16px !important;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px){
+    .header-right{
+        padding-left: 16px !important;
+    }
+}

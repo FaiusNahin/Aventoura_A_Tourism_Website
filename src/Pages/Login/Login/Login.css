@@ -1,0 +1,49 @@
+/* Login Button */
+#login-button{
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    padding: 16px 0px;
+    color: white;
+    font-weight:500;
+    font-size:22px;
+}
+#login-button:hover{
+    background-color: rgb(255, 182, 6);
+}
+
+/* Google Sign In Button */
+#google-sign-in{
+    background-color:rgba(255, 180, 6, 0.075) ;
+    border:2px solid rgb(255, 182, 6);
+    color: rgb(26, 26, 26);
+    font-weight:500;
+    font-size: 25px;
+}
+#google-sign-in img{
+    width: 35px;
+}
+#google-sign-in:hover{
+    background-color: rgb(26, 26, 26);
+    border:2px solid rgb(26, 26, 26);
+    color: white;
+}
+
+
+@media screen and (max-width:688px){
+     /*  Login Form  */
+    .login-form{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    /*  Login Form  */
+    .login-form{
+        width: 55%;
+    }
+  }
+@media only screen and (min-width:992px) and (max-width: 1199px){
+    /*  Login Form  */
+    .login-form{
+        width: 45%;
+    }
+  }

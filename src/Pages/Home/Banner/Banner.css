@@ -1,0 +1,16 @@
+.banner{
+  height: 700px;
+}
+
+@media screen and (max-width:688px){
+    /*  NotFound Images  */
+    .banner{
+        height: 450px;
+    }
+  }
+@media only screen and (min-width:689px) and (max-width: 991px){
+    /*  NotFound Images  */
+    .banner{
+        height: 550px;
+    }
+  }

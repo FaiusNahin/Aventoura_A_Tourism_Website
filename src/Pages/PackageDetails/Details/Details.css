@@ -1,0 +1,9 @@
+@media only screen and (max-width:688px){
+    .back-btn{
+        padding-left: 0px!important;
+    }
+    #details{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Open+Sans&display=swap');
+
+/* Package Image */
+.package-img{
+    position: relative;
+}
+.package-img:hover .package-thumb{
+    transform: scale(1.07);
+    transition: all .4s ease;
+}
+
+/* Package Info */
+.place-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(26, 26, 26);
+}
+.place-name:hover{
+    color: rgb(255, 182, 6);
+}
+.place-description{
+    color: #898989;
+    font-family: 'Open Sans', sans-serif;
+    font-size:15px;
+    letter-spacing: .30px;
+}
+#package-schedule{
+    font-size:15px;
+}
+#package-price{
+    font-size: 21px;
+    color:rgb(26, 26, 26);
+    font-weight:700;
+}
+.pack{
+    color: #a0a0a0;
+    font-size: 18px;
+}
+.book-now-button{
+    background-color: rgb(255, 182, 6);
+    color:white;
+    border:2px solid rgb(255, 182, 6);
+    padding:0px 20px;
+    font-weight: 500;
+    height:40px;
+}
+.book-now-button:hover{
+    background-color: transparent;
+    color:rgb(255, 182, 6);
+}
+
+/* Package Info */
+@media only screen and (max-width: 688px) {
+    .place-name{
+        font-size: 19px;
+    }
+    #package-schedule{
+        column-gap:19px;
+        font-size:14px;
+        margin-top:10px!important;
+        margin-bottom:10px!important;
+    }
+    #package-schedule p{
+        margin-bottom:8px!important;
+    }
+    #package-price{
+        font-size:20px;
+    }
+    .pack{
+        font-size: 16px;
+    }
+    .book-now-button{
+        padding:0px 15px;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .place-name{
+        font-size: 19px;
+    }
+    #package-schedule{
+        font-size:14px;
+    }
+  }

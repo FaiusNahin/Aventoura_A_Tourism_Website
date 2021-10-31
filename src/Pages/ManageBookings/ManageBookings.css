@@ -1,0 +1,53 @@
+/* Table Container */
+#table-column{
+    padding-left:20px;
+    padding-right:20px;
+}
+/* Table Heading */
+#table-heading{
+    background-color:rgb(26, 26, 26);
+    color: white;
+    font-size: 18px;
+}
+/* Table Body */
+#table-body{
+    color:rgb(26, 26, 26);
+    font-family: "Open Sans", sans-serif;
+}
+/* Status Button */
+#status-button{
+    font-size: 19px;
+    background-color: rgb(255, 182, 6);
+    width: 89%;
+}
+#status-button:hover{
+    background-color: #ffce3e;
+}
+
+@media only screen and (max-width:688px){
+    /* Table Container */
+    #table-column{
+        padding-left:3px;
+        padding-right:3px;
+    }
+    /* Status Button */
+    #status-button{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    #table-column{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    /* Status Button */
+    #status-button{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:992px) and (max-width: 1199px){
+    /* Status Button */
+    #status-button{
+        width: 100%;
+    }
+}

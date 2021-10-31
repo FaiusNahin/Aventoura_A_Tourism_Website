@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@700&display=swap');
+
+/* Booking Div */
+#booking-div{
+border: 1px solid #dedede88;
+box-shadow:0 0 23px 0 rgb(122 120 126 / 13%);
+}
+/* Booking Image */
+#booking-img img:hover{
+    filter: brightness(60%);
+    transition: all 300ms linear 0s;
+}
+/* Dates */
+#dates{
+border: 1px solid rgba(211, 211, 211, 0.596);
+padding:1px 18px;
+}
+/* Shot Date */
+#shot-date{
+    font-size: 40px;
+    color: #ffb606;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+/* Shot Month */
+#shot-month{
+    font-size: 18px;
+    color: #ffb606;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: .48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* Booking Name */
+#booking-name{
+    font-size: 23px;
+    color: #242424;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 300ms linear 0s;
+}
+#booking-name:hover{
+    color: #ffb606;
+}
+/* Booking Description */
+#booking-description{
+    color: #898989;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: .3px;
+    line-height: 26px;
+}
+
+@media screen and (max-width:688px){
+    /*  Booking  */
+    #booking{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    /* Booking Div */
+    #booking-div{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    /* Booking Info */
+    #booking-info{
+        padding:5px 15px !important;
+    }
+    /* Dates */
+    #dates{
+        margin-bottom:15px;
+        padding:1px 15px;
+    }
+    /* Shot Date */
+    #shot-date{
+        font-size: 36px;
+    }
+    /* Shot Month */
+    #shot-month{
+        font-size: 17px;
+    }
+    /* Booking Description */
+    #booking-description{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+  }
+@media only screen and (min-width:689px) and (max-width: 991px){
+    /*  Booking  */
+    #booking{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    /* Booking Div */
+    #booking-div{
+        margin-left: 0px !important;
+        margin-right: 0px !important; 
+    }
+    /* Booking Info */
+    #booking-info{
+        padding:10px 15px !important;
+    }
+    /* Dates */
+    #dates{
+        margin-bottom:15px;
+    }
+    /* Shot Date */
+    #shot-date{
+        font-size: 38px;
+    }
+    /* Shot Month */
+    #shot-month{
+        font-size: 17px;
+    }
+    /* Booking Name */
+     #booking-name{
+        font-size:18px;
+    }
+    /* Booking Description */
+    #booking-description{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        line-height:24px;
+        font-size: 15px;
+    }
+  }
