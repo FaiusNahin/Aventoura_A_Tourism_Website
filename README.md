@@ -30,17 +30,12 @@ MongoDb
 
 ## Details About This Project
 
-> If you visit this [Project](https://tourism-website-client-side.web.app/), you can see it's a single page application.\
-Where I use React Router for build this.
+> Aventoura is a Tourism Based Website Where I use React Router for Single [Page](https://tourism-website-client-side.web.app/) Application & used "Heroku" For clint side dynamic api 
 
-> For [server side](https://github.com/FaiusNahin/Aventoura_A_Tourism_Server_Side) here use "heroku" server.\
-And for CRUD operations use different file.
+> For [server side](https://github.com/FaiusNahin/Aventoura_A_Tourism_Server_Side) here use "MongoDB" for get, push or delete information about packages.
 
-> Implement Private Route and Redirect history.\
-For login process used Email, Password and Google sign In.
+> There are some Private Route. Which is Require user Login. 
 
-> Here also try to do this site responsive for mobile, tablet and desktop devices.\
-In this case I used Material UI framework.
+> For Login Process I used Firebase Authentication. 
 
-> In Dashboard here used nested route.\
-For admin dashboard it's secure by using JWT token
+> Here also try to do this site responsive by using bootstrap.
